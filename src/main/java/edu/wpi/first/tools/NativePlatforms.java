@@ -11,7 +11,8 @@ public enum NativePlatforms {
     LINUX64("linuxx64"),
     LINUXARM64("linuxarm64"),
     LINUXARM32("linuxarm32"),
-    LINUXATHENA("linuxathena");
+    LINUXATHENA("linuxathena"),
+    LINUXSYSTEMCORE("linuxsystemcore");
 
 
     private final String platformName;

@@ -85,6 +85,8 @@ public class PlatformMapper {
                 return "linuxarm32";
             case LINUXATHENA:
                 return "linuxathena";
+            case LINUXSYSTEMCORE:
+                return "linuxsystemcore";
             default:
                 throw new IllegalArgumentException();
         }
